@@ -1,0 +1,16 @@
+import afa.partidoHomenaje
+import afa.messi
+import afa.ronaldo
+import afa.mbappe
+import afa.bombonera
+
+test 'precio entrada del partido  homenaje' {
+    assert.equals(10200, partidoHomenaje.precioEntrada())
+}
+
+test "cantidad de entradas a vender" {
+    assert.equals(5292, partidoHomenaje.cantEntrada())
+}
+test "aumentar edad de mbappe" {
+    assert.equals(27, mbappe.cumpleanios())
+}
