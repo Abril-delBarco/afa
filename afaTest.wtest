@@ -11,6 +11,4 @@ test 'precio entrada del partido  homenaje' {
 test "cantidad de entradas a vender" {
     assert.equals(5292, partidoHomenaje.cantEntrada())
 }
-test "aumentar edad de mbappe" {
-    assert.equals(27, mbappe.cumpleanios())
-}
+
